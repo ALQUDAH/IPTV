@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Player</title>
+</head>
+<body>
+    <h1>Channel Player</h1>
+    <video id="video" width="640" controls autoplay>
+        <source src="{{ url }}" type="application/vnd.apple.mpegurl">
+    </video>
+    <p><a href="{{ url }}">Open stream directly</a></p>
+    <p><a href="{{ url_for('index') }}">Home</a></p>
+</body>
+</html>

@@ -50,6 +50,16 @@ on Ubuntu/Debian `sudo apt-get install pyqt4-dev-tools`
 
 ![alt tag](screenshot/gui.png)
 
+## How to use the Web App
+
+The repository now includes a small Flask application that can display and play
+generated playlists through a browser.
+
+* `cd webapp`
+* install the dependencies `pip install -r requirements.txt`
+* run the application with `python app.py`
+* open `http://localhost:5000` in your browser
+
 ## Compatibility
 
 This program work on Window, Linux, Mac OSX and BSD. The only requirement is
